@@ -19,8 +19,7 @@ function reqparser(req, res) {
         software: parseSoftware(req.headers['user-agent'])
     };
   
-    console.log(whoami);
-    res.send("Yello!");
+    res.json(whoami);
 }
 
 module.exports = reqparser;
