@@ -1,0 +1,11 @@
+{
+  "name": "request_parser",
+  "version": "0.0.0",
+  "description": "User Story: I can get the IP address, language and operating system for my browser.",
+  "main": "server.js",
+  "repository": "",
+  "author": "Jay <jaycrypto@gmail.com>",
+  "dependencies": {
+    "express": "~4.13.3"
+  }
+}
