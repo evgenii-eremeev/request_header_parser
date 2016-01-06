@@ -1,11 +1,10 @@
 var express = require("express");
+var reqparser = require("./app/controllers/reqparser");
 
 var app = express();
 
-app.get('/', function(req, res) {
-  res.send("All good!");
-});
+app.get('/', reqparser);
 
 app.listen(8080, function() {
-  console.log("App running at https://request-header-parser-jaycrypto.c9users.io");
+    console.log("App running at https://request-header-parser-jaycrypto.c9users.io");
 })
